@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+/* General Styles */
+.skills-container {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: var(--color-background); /* Optional: Add a background color */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  }
+  
+  .skills-title {
+    font-size: 52px; /* Increased font size for prominence */
+    font-weight: bold;
+    margin-bottom: 30px; /* More space below the title */
+    color: var(--color-text); /* Use a variable for color consistency */
+  }
+  
+  /* Skills Wrapper */
+  .skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Skills Card */
+  .skills-card {
+    background: white;
+    padding: 25px; /* Increased padding for better content spacing */
+    border-radius: 10px; /* Slightly larger radius for a softer look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Softer shadow effect */
+    width: calc(50% - 10px); /* Adjusted width to account for gaps */
+    text-align: left;
+  }
+  
+  .skills-card h3 {
+    font-size: 22px; /* Increased font size for headings */
+    margin-bottom: 15px;
+  }
+  
+  /* Skill Bar */
+  .skill {
+    margin-bottom: 20px; /* Increased space between skill bars */
+  }
+  
+  .skill-name {
+    font-size: 16px; /* Slightly larger font size for skill names */
+    font-weight: bold;
+  }
+  
+  /* Skill Bar Container Styling */
+  .skill-bar {
+    width: 100%;
+    background: #e0e0e0; /* Light gray background for the skill bar */
+    height: 10px; /* Increased height for better visibility */
+    border-radius: 5px; /* Rounded corners for the bar */
+    overflow: hidden;
+  }
+  
+  .skill-fill {
+    height:100%;
+      background: linear-gradient(to right, #6a11cb, #ff6600); /* Gradient fill for skill progress */
+      transition: width .5s ease-in-out; /* Smooth transition effect on fill change */
+  }
+  
+  /* Responsive Design */
+  @media (max-width:600px) {
+      .skills-wrapper {
+          flex-direction: column;
+          align-items:center; /* Center align items in column layout */
+      }
+  
+      .skills-card {
+          width:90%; /* Full width on smaller screens with margin adjustment */
+      }
+  }
+  

@@ -1,0 +1,25 @@
+[
+  {
+    "title": "CradleCare",
+    "imageSrc": "../../assets/history/cradlecare.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "css", "Node"],
+    "demo": "https://cradlecare-beige.vercel.app/",
+    "source": "https://github.com/gauravborhade-0/cradlecare"  },
+  {
+    "title": "Weather-app",
+    "imageSrc": "../../assets/projects/cloudy.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://weather-app-nine-pi-15.vercel.app/",
+    "source": "https://github.com/gauravborhade-0/Weather-app.git"
+  },
+  {
+    "title": "Personal-portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "Designed and developed a web application aimed at providing support, information, and resources for pregnant women, ensuring user-friendly navigation and accessibility.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

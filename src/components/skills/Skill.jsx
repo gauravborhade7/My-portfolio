@@ -8,13 +8,13 @@ const skillsData = {
     { name: "HTML/CSS", percentage: 95 },
     { name: "JavaScript", percentage: 70 },
     { name: "React.js", percentage: 50 },
-    {name: "Java",percentage:80},
+    {name: "Java",percentage:60},
   ],
   backend: [
     { name: "Node.js", percentage: 82 },
     { name: "Express.js", percentage: 80 },
     { name: "MongoDB", percentage: 75 },
-    { name: "SQL", percentage: 95 },
+    { name: "SQL", percentage: 45 },
   ],
 };
 

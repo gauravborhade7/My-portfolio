@@ -30,12 +30,12 @@ export const ProjectCard = ({ project }) => {
       <div className={styles.links}>
         {demo && (
           <a href={demo} className={styles.link} target="_blank" rel="noopener noreferrer">
-            Demo
+            Live 
           </a>
         )}
         {source && (
           <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
-            Source
+            Source 
           </a>
         )}
       </div>

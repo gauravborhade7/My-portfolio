@@ -13,7 +13,7 @@ export const ProjectCard = ({ project }) => {
         src={getImageUrl(imageSrc) || "default-image.jpg"} // Provide a fallback image
         alt={`Image of ${title}`}
         className={styles.image}
-      />
+      /> <br />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       

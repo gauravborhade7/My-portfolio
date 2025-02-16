@@ -5,17 +5,25 @@ import "./Skills.css"; // Import the CSS file
 // Skill Data
 const skillsData = {
   frontend: [
-    { name: "HTML/CSS", percentage: 95 },
+    { name: "HTML", percentage: 95 },
+    { name: "CSS", percentage: 50 },
     { name: "JavaScript", percentage: 70 },
-    { name: "React.js", percentage: 50 },
     {name: "Java",percentage:60},
   ],
+
+  Framework: [
+    { name: "Reactjs", percentage: 75 },
+    { name: "Nodejs", percentage: 65 },
+    { name: "Bootstrap", percentage: 70 },
+
+  ],
+
   backend: [
-    { name: "Node.js", percentage: 82 },
+    { name: "Firebase", percentage: 82 },
     { name: "Express.js", percentage: 80 },
     { name: "MongoDB", percentage: 75 },
     { name: "SQL", percentage: 45 },
-  ],
+  ]
 };
 
 // SkillBar Component
@@ -48,9 +56,17 @@ const Skills = () => {
           ))}
         </div>
 
+        <div className="skills-card">
+          <h3>
+            Framework/Library
+          </h3>
+          {skillsData.Framework.map((skill) => (
+            <SkillBar key={skill.name} {...skill} />
+          ))}
+          </div>
         {/* Backend Skills */}
         <div className="skills-card">
-          <h3>Backend Development</h3>
+          <h3>Database</h3>
           {skillsData.backend.map((skill) => (
             <SkillBar key={skill.name} {...skill} />
           ))}

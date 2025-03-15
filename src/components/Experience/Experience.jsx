@@ -2,7 +2,7 @@
 
 import styles from "./Experience.module.css";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+// import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
@@ -30,9 +30,9 @@ export const Experience = () => {
                   alt={`${historyItem.organisation} Logo`}
                 /> */}
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3> <br />
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
+                  <ul> 
                     {historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
                     })}

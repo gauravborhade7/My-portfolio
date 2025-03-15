@@ -19,7 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
             <h3>Education</h3><br />
               <p>
-                *B.S.C Computer Science (Mumbai University) <br/>
+                B.S.C Computer Science (Mumbai University) <br/>
                 J.K College Science and technology <br/>
                 2022-2023
               </p> <br />
